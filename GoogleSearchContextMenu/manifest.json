@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Google Search",
+  "description": "Adds Google Search to context menu",
+  "version": "0.1.2013.11",
+  
+  "background": {
+    "scripts": ["background.js"]
+	},
+	
+  "icons": { "16": "google16.png",
+           "48": "google48.png",
+          "128": "google128.png" },
+  
+  "permissions": [
+    "contextMenus"
+  ]
+}
