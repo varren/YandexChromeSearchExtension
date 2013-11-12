@@ -7,7 +7,7 @@ function openTabAfterCurrent(url){
   });
 }
 
-function searchYandex(info){
+function searchYandexText(info){
   var searchstring = info.selectionText;
   var url = DEFAULT_TEXT_SEARCH_URL + encodeURIComponent(searchstring);
   openTabAfterCurrent(url);
@@ -19,5 +19,5 @@ function searchYandexImg(info){
   openTabAfterCurrent(url);
 }
 
-chrome.contextMenus.create({title:"Искать в Яндексе", contexts:["selection"], onclick:searchYandex});
-chrome.contextMenus.create({title:"Искать в Яндексе", contexts:["image"], onclick:searchYandexImg});
+chrome.contextMenus.create({title:"Искать Текст в Яндексе", contexts:["selection"], onclick:searchYandexText});
+chrome.contextMenus.create({title:"Искать Изображение в Яндексе", contexts:["image"], onclick:searchYandexImg});
