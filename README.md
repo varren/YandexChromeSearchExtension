@@ -11,10 +11,10 @@ Features
 
 Selected Text 
 -------------
-*Will open new tab with URL: http://images.yandex.ru/yandsearch?rpt=imagecbir&img_url=`Selected Text`*
+*Will open new tab with URL: http://images.yandex.ru/yandsearch?rpt=imagecbir&img_url= `Selected Text`*
 ![Text Search Demo](TextSearchDemo.png "Text Search Demo")
 
 Right Mouse Click on Image 
 -------------
-*Will open new tab with URL: http://yandex.ru/yandsearch?text=`Image URL`*
+*Will open new tab with URL: http://yandex.ru/yandsearch?text= `Image URL`*
 ![Images Search Demo](ImagesSearchDemo.png "Images Search Demo")
