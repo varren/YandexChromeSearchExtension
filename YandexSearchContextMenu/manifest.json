@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Yandex Search",
   "description": "Adds Yandex Search to context menu",
-  "version": "1.0",
+  "version": "0.1.2013.11",
   
   "background": {
     "scripts": ["background.js"]
@@ -13,7 +13,6 @@
           "128": "yandex128.png" },
   
   "permissions": [
-    "contextMenus",
-	"tabs"
+    "contextMenus"
   ]
 }
